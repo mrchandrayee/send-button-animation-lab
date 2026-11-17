@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#e9e5dd">
+<title>Send Button Animation</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="page">
+  <header><h1>Send Button <span>Animation</span></h1><p>Tap either button to play its motion sequence</p></header>
+  <section class="stage" aria-label="Animated button demonstrations">
+    <button class="action action-send" data-kind="send" type="button" aria-label="Send">
+      <span class="wake" aria-hidden="true"></span>
+      <span class="plane" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 11.5 21 3l-6.9 18-3.2-7.1L3 11.5Zm7.9 2.4L21 3"/></svg></span>
+      <span class="word">SEND</span>
+      <span class="letters" aria-hidden="true"><i>S</i><i>E</i><i>N</i><i>T</i></span>
+    </button>
+    <button class="action action-ship" data-kind="ship" type="button" aria-label="Ship">
+      <span class="wake" aria-hidden="true"></span>
+      <span class="plane" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 11.5 21 3l-6.9 18-3.2-7.1L3 11.5Zm7.9 2.4L21 3"/></svg></span>
+      <span class="word">SHIP</span>
+      <span class="letters out" aria-hidden="true"><i>O</i><i>U</i><i>T</i></span>
+    </button>
+  </section>
+  <p class="hint">Click again after the animation finishes to replay.</p>
+  <footer><span>CSS + JAVASCRIPT</span><span>INTERACTIVE BUTTON STUDY</span></footer>
+</main>
+<script src="script.js"></script>
+</body></html>
